@@ -11,4 +11,4 @@ There is some use of AI(Artificial Inteligence) in it for playing tic tac toe wi
 <img src="https://github.com/digital-Swaraj/TicTacToe/assets/134411097/f74ad88c-f512-43bf-90aa-fdefcbfcf4bf" alt="screenshot" width="300" />
 
 ## Preveiw
-on codepen - <a href="https://codepen.io/shanuparth-gmail-com/pen/jOXMZjE?editors=1010" ></a>
+on codepen - [https://codepen.io/shanuparth-gmail-com/pen/jOXMZjE?editors=1010](https://codepen.io/shanuparth-gmail-com/pen/jOXMZjE?editors=1010)
