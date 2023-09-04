@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="../boot.css"></link>
+		<link rel="icon" href="../game-ico.jpg"></link>
+		<script src="../jq.js"></script>
+		<script src="../boot.js"></script>
+		<script src=".js"></script>
+		<style>
+			.cell {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+            font-size: 24px;
+            cursor: pointer;
+			}
+			.cell:hover{
+			background:#f0f0f0
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container mt-5">
+			<small class="text-secondary">Note: If you will choose 'Vs. Computer' on every game so AI for the game will be on</small><br>
+			<h1 class="text-center mt-2">Tic Tac Toe</h1>
+			<div class="modal fade">
+				<div class="alert bg-light w-50 modal-dialog py-2" id="malert"><img src="../game-ico.jpg" class="mr-2" height="20" /><span></span></div>
+			</div>
+			<div class="text-center">
+				<button class="btn btn-primary" id="reset">Reset Game</button>
+				<button class="btn btn-secondary" id="twoPlayer">Two Player</button>
+				<button class="btn btn-success" id="vsComputer">Vs. Computer</button>
+			</div>
+			<div class="row mt-4">
+				<div class="col-md-4 offset-md-4">
+					<div class="row">
+						<div class="col-4 cell" data-index="0"></div>
+						<div class="col-4 cell border-left border-right border-secondary" data-index="1"></div>
+						<div class="col-4 cell" data-index="2"></div>
+					</div>
+					<div class="row">
+						<div class="col-4 cell border-top border-bottom border-secondary" data-index="3"></div>
+						<div class="col-4 cell border border-secondary" data-index="4"></div>
+						<div class="col-4 cell border-top border-bottom border-secondary" data-index="5"></div>
+					</div>
+					<div class="row">
+						<div class="col-4 cell" data-index="6"></div>
+						<div class="col-4 cell border-left border-right border-secondary" data-index="7"></div>
+						<div class="col-4 cell" data-index="8"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
