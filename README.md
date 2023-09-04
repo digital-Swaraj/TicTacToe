@@ -1,4 +1,6 @@
 # TicTacToe
 A js, html, css library for tic tac toe.
-using Bootstrsp 4.6 and jQuery 3.5.
-With self playing AI in js.
+
+## Screen
+![screenshot](https://github.com/digital-Swaraj/TicTacToe/assets/134411097/f74ad88c-f512-43bf-90aa-fdefcbfcf4bf)
+
